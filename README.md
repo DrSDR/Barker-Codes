@@ -8,6 +8,45 @@ see thegmr140 youtube channel to see demo of this.
 
 
 
+
+
+
+qpsk signal
+
+fs = 48khz
+samples per symbol:  48
+
+8 bit char
+
+first char in signal:  H
+
+00 = 45 degrees
+01 = 135 degrees
+11 = 225 degrees
+10  =  315 degrees
+
+
+signal has freq offset  and some awgn noise
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 the lora signal  
 
 sf = 5
