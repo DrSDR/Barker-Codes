@@ -1,3 +1,50 @@
+
+
+decode signal lfm chirp using ppm modulation 
+pulse position modulation.
+
+iq sample rate = 48khz
+
+chirp bw = 30khz
+
+chirp pw = 3msec
+
+bit 1 =  chirp,  1msec of dead time
+
+bit 0 = 1msec of dead time,  chirp
+
+
+preamble:  8 bits  all ones
+
+after preamble is 8 bit char,  with amazon code.
+
+good luck AI and LLM models.
+
+and for the 3 humans that solve this:  well done
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 python script that creates a barker code rf pulse.
 
 user can edit the barker code,  pri ,  iq sample rate,  and the freq offset of the barker code rf pulse train.
